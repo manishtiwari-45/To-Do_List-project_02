@@ -105,3 +105,65 @@ ul li span:hover{
     margin-left: 700px;
     margin-bottom: 5px;
 }
+/* Small devices (phones, 600px and below) */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .todo-app h2 {
+        font-size: 1.5em;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #input-box {
+        width: 100%;
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    #list-container li {
+        font-size: 1em;
+    }
+}
+
+/* Medium devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+    .todo-app {
+        padding: 15px;
+    }
+
+    .todo-app h2 {
+        font-size: 1.6em;
+    }
+
+    #input-box {
+        font-size: 1.1em;
+        padding: 10px;
+    }
+
+    #list-container li {
+        font-size: 1.1em;
+    }
+}
+
+/* Large devices (desktops, 1024px and above) */
+@media (min-width: 1024px) {
+    .todo-app h2 {
+        font-size: 2em;
+    }
+
+    #input-box {
+        font-size: 1.2em;
+        padding: 12px;
+    }
+
+    #list-container li {
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
